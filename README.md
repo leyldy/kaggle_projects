@@ -16,4 +16,5 @@ Predict what kind of checkin users made in each different location in a large ar
 
 ## Project 3: Allstate Claims
 Predict cost of claims (severity of claims) based on claim attributes. Utilized more advanced machine learning algorithms such as XGBoost, RandomForest, as well as more data transformations, correlation checks, feature engineering, etc.
+
 [Jupyter Notebook](https://github.com/leyldy/kaggle_projects/blob/master/allstate/allstate_jong_final_htmlreport.pdf)
