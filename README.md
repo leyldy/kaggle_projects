@@ -1,0 +1,16 @@
+# kaggle_projects
+
+Collection of initial Kaggle projects. Note files are not as well organized.
+
+## Project 1: Housing Prices
+Predicting housing prices based on series of attributes. Beginner project, using linear regression mainly and focusing on encoding variables, creating dummy columns for categorical data, etc. 
+
+
+
+## Project 2: Facebook Checkin Prediction
+Predict what kind of checkin users made in each different location in a large area. Coordinates for each observation was given along with user data and attributes. Since the dataset was larger than normal (700MB), processed data by dividing the data into n x n grids, by utilizing coordinate data. Processed and predicted data on each grid by using KNN within each grid for classification.
+
+
+
+## Project 3: Allstate Claims
+Predict cost of claims (severity of claims) based on claim attributes. Utilized more advanced machine learning algorithms such as XGBoost, RandomForest, as well as more data transformations, correlation checks, feature engineering, etc.
