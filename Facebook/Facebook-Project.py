@@ -24,10 +24,6 @@ test = pd.read_csv('test.csv')
 
 
 # In[120]:
-
-#Separate spatial data into grid for computation in smaller bits
-#Code mostly taken from 'Sandro' on Kaggle Kernels
-
 def prepare_data(df, n_cell_x, n_cell_y):
 
     size_x = 10. / n_cell_x
@@ -56,10 +52,6 @@ def prepare_data(df, n_cell_x, n_cell_y):
 
 
 # In[121]:
-
-#Also code adapted from 'Sandro'
-#jk most of this stuff is mine now
-
 def process_one_cell(df_train, df_test, grid_id, threshold, n_cell_x, n_cell_y):
     """   
     Throw in a training dataset and it will split it into local training and testing sets, and 
